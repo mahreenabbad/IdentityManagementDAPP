@@ -1,0 +1,77 @@
+/* AssignDigitalId.css */
+
+.reg-cand-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .reg-img-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .reg-img-wrapper h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .reg-img-wrapper img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .can-reg-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .can-reg-form h3 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .can-reg-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .can-reg-form .label1 {
+    margin-top: 15px;
+  }
+  
+  .can-reg-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .can-reg-form .regBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .can-reg-form .regBtn:hover {
+    background-color: #45a049;
+  }
+  

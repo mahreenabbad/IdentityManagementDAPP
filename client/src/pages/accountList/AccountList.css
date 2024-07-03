@@ -1,0 +1,102 @@
+/* Wrapper for the entire account list component */
+.ac-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  /* Container for the content within the account list */
+  .ac-list-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  /* Title styling */
+  .ac-list-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .ac-list-title .span {
+    color: #3498db;
+  }
+  
+  /* Styling for the form */
+  .ac-list-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the select dropdown */
+  .innerBox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  .innerBox:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Styling for the note paragraph */
+  .note {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  /* Optional: Styling for the navigation component */
+  .navbar {
+    width: 100%;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 1.2em;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Image styling */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .ac-list-container {
+      padding: 20px;
+    }
+  
+    .ac-list-title {
+      font-size: 1.5em;
+    }
+  
+    .innerBox {
+      width: 100%;
+    }
+  }
+  
